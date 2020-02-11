@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".InternalActivity"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btBuatFile"
+        android:text="Buat File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btUbahFile"
+        android:text="Ubah File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btBacaFile"
+        android:text="Baca File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btHapusFile"
+        android:text="Hapus File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvBaca"
+        android:background="#A9A9A9"
+        android:ems="10"
+        android:gravity="top|left"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:hint="Hasil Baca File"
+        android:inputType="textImeMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+
+</LinearLayout>
